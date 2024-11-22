@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vetri Electronics</title>
+    <link rel="stylesheet" href="laptop.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+
+<body>
+   <!-- Top Banner -->
+   <div class="top-banner">
+    <marquee> Enjoy Free Shipping For Orders Over $30! <a href="#">Shop Now</a></marquee>
+ </div>
+
+ <!-- Header Section -->
+ <header>
+     <div class="header-container">
+         <!-- Logo and Search Bar -->
+         <div class="left-section">
+             <div class="logo">
+                 <img src="#" alt="Logo">
+                 <h1>Vetri Electronics</h1>
+
+             </div>
+             <div class="search-bar">
+                 <select>
+                     <option>All Categories</option>
+                     <option>Mobiles & Tablets</option>
+                     <option>Laptops</option>
+                     <option>Smart Phone</option>
+                     <option>Wearables</option>
+                     <option>Audio's</option>
+
+                 </select>
+                 <input type="text" placeholder="Search anything...">
+                 <button><i class="fas fa-search"></i></button>
+             </div>
+         </div>
+
+         <!-- Contact Info and Icons -->
+         <div class="right-section">
+             <!-- <div class="contact-info">
+                 <p>Hotline 24/7</p>
+                 <a href="tel:(025) 3686 2516">1234567890</a>
+             </div> -->
+             <div class="user-icons">
+                 <i class="fas fa-user"></i>
+                 <i class="fas fa-heart"></i>
+                 <i class="fas fa-shopping-cart"></i>
+                 <span class="cart-count">0</span>
+             </div>
+         </div>
+     </div>
+ </header>
+
+ <!-- Navigation Menu -->
+ <nav>
+     <ul>
+         
+
+         <!-- Mobiles & Tablets Dropdown -->
+         <li class="dropdown">
+             <a href="#">MOBILES & TABLETS</a>
+             <ul class="dropdown-menu">
+                 <li><a href="phone.html">Smartphones</a></li>
+                 <li><a href="tablets.html">Tablets</a></li>
+                
+             </ul>
+         </li>
+         <li class="dropdown">
+             <a href="#">LAPTOPS</a>
+             <ul class="dropdown-menu">
+                 <li><a href="laptop.html">Laptop</a></li>
+                 <li><a href="#">Macmini</a></li>
+                 
+             </ul>
+         </li>
+
+         <!-- Televisions Dropdown -->
+         <li class="dropdown">
+             <a href="#">TELEVISIONS</a>
+             <ul class="dropdown-menu">
+                 <li><a href="#">LED TV</a></li>
+                 <li><a href="#">Smart TV</a></li>
+                 <li><a href="#">4K TV</a></li>
+             </ul>
+         </li>
+
+         <!-- Smart Watches Dropdown -->
+         <li class="dropdown">
+             <a href="#">SMART WATCHES</a>
+             <ul class="dropdown-menu">
+                 <li><a href="#">Fitness Bands</a></li>
+                 <li><a href="#">Smartwatches</a></li>
+                 <li><a href="#">Accessories</a></li>
+             </ul>
+         </li>
+
+         <!-- Audio's Dropdown -->
+         <li class="dropdown">
+             <a href="#">AUDIO'S</a>
+             <ul class="dropdown-menu">
+                 <li><a href="#">Headphones</a></li>
+                 <li><a href="#">Bluetooth</a></li>
+                 <li><a href="#">Soundbars</a></li>
+             </ul>
+         </li>
+
+         <li><a href="#">CONTACT US</a></li>
+     </ul>
+
+     <div class="nav-icons">
+         <a><i class="fas fa-box"></i> Order Tracking</a>
+     </div>
+ </nav>
+
+    <div class="container">
+        <!-- Filter Sidebar -->
+        <div class="filter-section">
+            <h3>Filter Products</h3>
+            <div class="filter-category">
+                <h4>Category</h4>
+                <label><input type="checkbox"> Smartphones</label><br>
+                <label><input type="checkbox"> Laptops</label><br>
+                <label><input type="checkbox"> Tablets</label><br>
+                <label><input type="checkbox"> Televisions</label><br>
+                <label><input type="checkbox"> Wearables</label><br>
+                <label><input type="checkbox"> Audio's</label><br>
+                <label><input type="checkbox"> Accessories</label>
+            </div>
+
+            <div class="filter-price">
+                <h4>Price</h4>
+                <input type="range" min="1000" max="50000" value="25000" class="price-slider" id="priceRange">
+                <p>Price: <span id="priceValue">25000</span> INR</p>
+            </div>
+
+            <div class="filter-brand">
+                <h4>Brand</h4>
+                <label><input type="checkbox"> Samsung</label><br>
+                <label><input type="checkbox"> Apple</label><br>
+                <label><input type="checkbox"> Lenovo</label><br>
+                <label><input type="checkbox"> One plus</label><br>
+                <label><input type="checkbox"> Realme</label><br>
+                <label><input type="checkbox"> Vivo</label><br>
+                <label><input type="checkbox"> Oppo</label><br>
+                <label><input type="checkbox"> Hp</label><br>
+                <label><input type="checkbox"> Dell</label><br>
+                <label><input type="checkbox"> Sony</label><br>
+                <label><input type="checkbox"> Xiaomi</label>
+            </div>
+        </div>
+
+        <!-- Product Section -->
+        <div class="product-section">
+            <h3>Products</h3>
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product-item">
+                    <img src="images/laptop2.jpg" alt="Product 2">
+                    <h4>HP </h4>
+                    <p>MRP: Rs.<del>45,999</del></p>
+                    <p>Deal price : Rs.50,749</p>
+                    <hr>
+                    <p><button>Add To Cart</button></p>
+                </div>
+                <!-- Product 2 -->
+                <div class="product-item">
+                    <img src="images/laptop2.jpg" alt="Product 2">
+                    <h4>HP </h4>
+                    <p>MRP: Rs.<del>45,999</del></p>
+                    <p>Deal price : Rs.50,749</p>
+                    <hr>
+                    <p><button>Add To Cart</button></p>
+                </div>
+                <!-- Product 3 -->
+                <div class="product-item">
+                    <img src="images/laptop3.jpg" alt="Product 3">
+                    <h4>HP </h4>
+                    <p>MRP: Rs.<del>80,999</del></p>
+                    <p>Deal price : Rs.91,749</p>
+                    <hr>
+                    <p><button>Add To Cart</button></p>
+
+                </div>
+                <!-- Product 4 -->
+                <div class="product-item">
+                    <img src="images/laptop4.jpg" alt="Product 4">
+                    <h4>HP </h4>
+                    <p>MRP: Rs.<del>58,999</del></p>
+                    <p>Deal price : Rs.62,497</p>
+                    <hr>
+                    <p><button>Add To Cart</button></p>
+                </div>
+            </div>
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product-item">
+                    <img src="images/realme1.jpg" alt="Product 1">
+                    <h4>Realme 13 Plus 5G 128GB,8 GB RAM, MobilePhone(494422779)</h4>
+                    <p>MRP: Rs.<del>22,999</del></p>
+                    <p>Deal price : Rs.25,999</p>
+                    <hr>
+                    <p><button>Add To Cart</button></p>
+                </div>
+                <!-- Product 2 -->
+                <div class="product-item">
+                    <img src="images/realme2.jpg" alt="Product 2">
+                    <h4>Realme 13 5G 128 GB, 8 GB RAM, Speed Green, Mobile Phone(494422774)</h4>
+                    <p>MRP: Rs.<del>26,999</del></p>
+                    <p>Deal price : Rs.17,749</p>
+                    <hr>
+                    <p><button>Add To Cart</button></p>
+                </div>
+                <!-- Product 3 -->
+                <div class="product-item">
+                    <img src="images/realme3.jpg" alt="Product 3">
+                    <h4>Realme 13 5G 256 GB, 8 GB RAM, Dark Purple, Mobile Phone(494422776)</h4>
+                    <p>MRP: Rs.<del>17,999</del></p>
+                    <p>Deal price : Rs.22,999</p>
+                    <hr>
+                    <p><button>Add To Cart</button></p>
+                </div>
+                <!-- Product 4 -->
+                <div class="product-item">
+                    <img src="images/realme4.jpg" alt="Product 4">
+                    <h4>Realme C65 5G 128 GB, 6 GB RAM, Feather Green, Mobile Phone(494353208)</h4>
+                    <p>MRP: Rs.<del>12,999</del></p>
+                    <p>Deal price : Rs.15,999</p>
+                    <hr>
+                    <p><button>Add To Cart</button></p>
+                </div>
+            </div>
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product-item">
+                    <img src="images/redmi1.jpg" alt="Product 1">
+                    <h4>Redmi Note 12 64 GB, 6 GB RAM, Lunar Black, Mobile Phone(493666113)</h4>
+                    <p>MRP: Rs.<del>30,999</del></p>
+                    <p>Deal price : Rs.27,999</p>
+                    <hr>
+                    <p><button>Add To Cart</button></p>
+                </div>
+                <!-- Product 2 -->
+                <div class="product-item">
+                    <img src="images/oneplus2.jpg" alt="Product 2">
+                    <h4>OnePlus Nord CE3 5G 128GB, 8GB RAM, Aqua Surge, Mobile Phone(493838773)</h4>
+                    <p>MRP: Rs.<del>26,999</del></p>
+                    <p>Deal price : Rs.17,749</p>
+                    <hr>
+                    <p><button>Add To Cart</button></p>
+                </div>
+                <!-- Product 3 -->
+                <div class="product-item">
+                    <img src="images/oneplus3.jpg" alt="Product 3">
+                    <h4>OnePlus Nord CE3 5G 128GB, 8GB RAM, Grey Shimmer, Mobile Phone(493838771)</h4>
+                    <p>MRP: Rs.<del>26,999</del></p>
+                    <p>Deal price : Rs.17,749</p>
+                    <hr>
+                    <p><button>Add To Cart</button></p>
+                </div>
+                <!-- Product 4 -->
+                <div class="product-item">
+                    <img src="images/oneplus4.jpg" alt="Product 4">
+                    <h4>OnePlus Nord 3 5G 128 GB 8 GB RAM Tempest Grey, Mobile Phone(493838379)</h4>
+                    <p>MRP: Rs.<del>31,999</del></p>
+                    <p>Deal price : Rs.27,749</p>
+                    <hr>
+                    <p><button>Add To Cart</button></p>
+                </div>
+            </div>
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product-item">
+                    <img src="images/oneplus11.jpg" alt="Product 1">
+                    <h4>OnePlus Nord 3 5G 128 GB 8 GB RAM Misty Green, Mobile Phone(493838380)</h4>
+                    <p>MRP: Rs.<del>30,999</del></p>
+                    <p>Deal price : Rs.27,999</p>
+                    <hr>
+                    <p><button>Add To Cart</button></p>
+                </div>
+                <!-- Product 2 -->
+                <div class="product-item">
+                    <img src="images/oneplus2.jpg" alt="Product 2">
+                    <h4>OnePlus Nord CE3 5G 128GB, 8GB RAM, Aqua Surge, Mobile Phone(493838773)</h4>
+                    <p>MRP: Rs.<del>26,999</del></p>
+                    <p>Deal price : Rs.17,749</p>
+                    <hr>
+                    <p><button>Add To Cart</button></p>
+                </div>
+                <!-- Product 3 -->
+                <div class="product-item">
+                    <img src="images/oneplus3.jpg" alt="Product 3">
+                    <h4>OnePlus Nord CE3 5G 128GB, 8GB RAM, Grey Shimmer, Mobile Phone(493838771)</h4>
+                    <p>MRP: Rs.<del>26,999</del></p>
+                    <p>Deal price : Rs.17,749</p>
+                    <hr>
+                    <p><button>Add To Cart</button></p>
+                </div>
+                <!-- Product 4 -->
+                <div class="product-item">
+                    <img src="images/oneplus4.jpg" alt="Product 4">
+                    <h4>OnePlus Nord 3 5G 128 GB 8 GB RAM Tempest Grey, Mobile Phone(493838379)</h4>
+                    <p>MRP: Rs.<del>31,999</del></p>
+                    <p>Deal price : Rs.27,749</p>
+                    <hr>
+                    <p><button>Add To Cart</button></p>
+                </div>
+            </div>
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product-item">
+                    <img src="images/oneplus11.jpg" alt="Product 1">
+                    <h4>OnePlus Nord 3 5G 128 GB 8 GB RAM Misty Green, Mobile Phone(493838380)</h4>
+                    <p>MRP: Rs.<del>30,999</del></p>
+                    <p>Deal price : Rs.27,999</p>
+                    <hr>
+                    <p><button>Add To Cart</button></p>
+                </div>
+                <!-- Product 2 -->
+                <div class="product-item">
+                    <img src="images/oneplus2.jpg" alt="Product 2">
+                    <h4>OnePlus Nord CE3 5G 128GB, 8GB RAM, Aqua Surge, Mobile Phone(493838773)</h4>
+                    <p>MRP: Rs.<del>26,999</del></p>
+                    <p>Deal price : Rs.17,749</p>
+                    <hr>
+                    <p><button>Add To Cart</button></p>
+                </div>
+                <!-- Product 3 -->
+                <div class="product-item">
+                    <img src="images/oneplus3.jpg" alt="Product 3">
+                    <h4>OnePlus Nord CE3 5G 128GB, 8GB RAM, Grey Shimmer, Mobile Phone(493838771)</h4>
+                    <p>MRP: Rs.<del>26,999</del></p>
+                    <p>Deal price : Rs.17,749</p>
+                    <hr>
+                    <p><button>Add To Cart</button></p>
+                </div>
+                <!-- Product 4 -->
+                <div class="product-item">
+                    <img src="images/oneplus4.jpg" alt="Product 4">
+                    <h4>OnePlus Nord 3 5G 128 GB 8 GB RAM Tempest Grey, Mobile Phone(493838379)</h4>
+                    <p>MRP: Rs.<del>31,999</del></p>
+                    <p>Deal price : Rs.27,749</p>
+                    <hr>
+                    <p><button>Add To Cart</button></p>
+                </div>
+            </div>
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product-item">
+                    <img src="images/oneplus11.jpg" alt="Product 1">
+                    <h4>OnePlus Nord 3 5G 128 GB 8 GB RAM Misty Green, Mobile Phone(493838380)</h4>
+                    <p>MRP: Rs.<del>30,999</del></p>
+                    <p>Deal price : Rs.27,999</p>
+                    <hr>
+                    <p><button>Add To Cart</button></p>
+                </div>
+                <!-- Product 2 -->
+                <div class="product-item">
+                    <img src="images/oneplus2.jpg" alt="Product 2">
+                    <h4>OnePlus Nord CE3 5G 128GB, 8GB RAM, Aqua Surge, Mobile Phone(493838773)</h4>
+                    <p>MRP: Rs.<del>26,999</del></p>
+                    <p>Deal price : Rs.17,749</p>
+                    <hr>
+                    <p><button>Add To Cart</button></p>
+                </div>
+                <!-- Product 3 -->
+                <div class="product-item">
+                    <img src="images/oneplus3.jpg" alt="Product 3">
+                    <h4>OnePlus Nord CE3 5G 128GB, 8GB RAM, Grey Shimmer, Mobile Phone(493838771)</h4>
+                    <p>MRP: Rs.<del>26,999</del></p>
+                    <p>Deal price : Rs.17,749</p>
+                    <hr>
+                    <p><button>Add To Cart</button></p>
+                </div>
+                <!-- Product 4 -->
+                <div class="product-item">
+                    <img src="images/oneplus4.jpg" alt="Product 4">
+                    <h4>OnePlus Nord 3 5G 128 GB 8 GB RAM Tempest Grey, Mobile Phone(493838379)</h4>
+                    <p>MRP: Rs.<del>31,999</del></p>
+                    <p>Deal price : Rs.27,749</p>
+                    <hr>
+                    <p><button>Add To Cart</button></p>
+                </div>
+            </div>
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product-item">
+                    <img src="images/oneplus11.jpg" alt="Product 1">
+                    <h4>OnePlus Nord 3 5G 128 GB 8 GB RAM Misty Green, Mobile Phone(493838380)</h4>
+                    <p>MRP: Rs.<del>30,999</del></p>
+                    <p>Deal price : Rs.27,999</p>
+                    <hr>
+                    <p><button>Add To Cart</button></p>
+                </div>
+                <!-- Product 2 -->
+                <div class="product-item">
+                    <img src="images/oneplus2.jpg" alt="Product 2">
+                    <h4>OnePlus Nord CE3 5G 128GB, 8GB RAM, Aqua Surge, Mobile Phone(493838773)</h4>
+                    <p>MRP: Rs.<del>26,999</del></p>
+                    <p>Deal price : Rs.17,749</p>
+                    <hr>
+                    <p><button>Add To Cart</button></p>
+                </div>
+                <!-- Product 3 -->
+                <div class="product-item">
+                    <img src="images/oneplus3.jpg" alt="Product 3">
+                    <h4>OnePlus Nord CE3 5G 128GB, 8GB RAM, Grey Shimmer, Mobile Phone(493838771)</h4>
+                    <p>MRP: Rs.<del>26,999</del></p>
+                    <p>Deal price : Rs.17,749</p>
+                    <hr>
+                    <p><button>Add To Cart</button></p>
+                </div>
+                <!-- Product 4 -->
+                <div class="product-item">
+                    <img src="images/oneplus4.jpg" alt="Product 4">
+                    <h4>OnePlus Nord 3 5G 128 GB 8 GB RAM Tempest Grey, Mobile Phone(493838379)</h4>
+                    <p>MRP: Rs.<del>31,999</del></p>
+                    <p>Deal price : Rs.27,749</p>
+                    <hr>
+                    <p><button>Add To Cart</button></p>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+
+
+
+    
+<footer class="footer">
+    <div class="footer-container">
+        <!-- Footer Top Section -->
+        <div class="footer-row">
+            <!-- About Section -->
+            <div class="footer-col about">
+                <h3>Vetri Electronics</h3>
+                <p>Your one-stop destination for the latest electronics, gadgets, and accessories. Quality products, unbeatable prices, and exceptional service.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <!-- Quick Links Section -->
+            <div class="footer-col quick-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Section -->
+            <div class="footer-col contact">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Electronics Street, Tech City, TX 12345</p>
+                <p><i class="fas fa-phone-alt"></i> +1 234 567 890</p>
+                <p><i class="fas fa-envelope"></i> info@vetrielectronics.com</p>
+            </div>
+
+            <!-- Newsletter Section -->
+            <div class="footer-col newsletter">
+                <h3>Newsletter</h3>
+                <p>Subscribe to our newsletter to get the latest updates on new products and offers.</p>
+                <form>
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Footer Bottom Section -->
+        <div class="footer-bottom">
+            <p style="color: white;">&copy; 2024 Vetri Electronics. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+    <script src="laptop.html"></script>
+
+</body>
+
+</html>
